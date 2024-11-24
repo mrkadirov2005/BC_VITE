@@ -1,0 +1,67 @@
+/* General page styling */
+.register-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #38b2ac, #4299e1); /* Green to blue gradient */
+    padding: 16px;
+    margin: 0;
+  }
+  
+  /* Container styling */
+  .register-container {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Heading styling */
+  .register-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2d3748; /* Dark gray */
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Links container */
+  .register-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Link styling */
+  .register-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #2d3748; /* Dark gray */
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    border: 2px solid #2d3748;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .register-link:hover {
+    background: #2d3748; /* Dark gray */
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* SVG Icon styling */
+  .register-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    stroke: currentColor;
+  }
+  

@@ -1,0 +1,61 @@
+/* Container for centering content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #38b2ac, #2f855a); /* Green gradient */
+  padding: 0 16px;
+}
+
+/* Box with white background and shadow */
+.welcome-box {
+  max-width: 48rem; /* 768px */
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text container for title and description */
+.text-content {
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 2.25rem; /* 36px */
+  font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
+}
+
+/* Description */
+.description {
+  font-size: 1.125rem; /* 18px */
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+}
+
+/* Get Started Button */
+.get-started-button {
+  padding: 12px 24px;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, #ecc94b, #ed8936); /* Orange gradient */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.get-started-button:hover {
+  background: linear-gradient(to right, #ed8936, #ecc94b);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
