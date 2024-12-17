@@ -1,0 +1,70 @@
+/* SuperAdminMenu.css */
+
+.menu {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e3a8a; /* Blue color */
+    color: white;
+    border-right: 1px solid #d1d5db; /* Border gray */
+    padding-top: 1.5rem;
+  }
+  
+  .menu .profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+  
+  .menu .profile .avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #4b5563; /* Gray color */
+    margin-bottom: 1rem;
+  }
+  
+  .menu .profile h1 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .menu .btn-logout {
+    padding: 0.5rem;
+    background-color: #e11d48; /* Red color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+  
+  .menu .link {
+    display: block;
+    width: 80%;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #6d28d9; /* Purple color */
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+    transition: background-color 0.3s;
+  }
+  
+  .menu .link:hover {
+    background-color: #4c1d95; /* Darker purple on hover */
+  }
+  
+  .menu .link:active {
+    background-color: #7e22ce; /* Even darker purple on active */
+  }
+  .right_comp{
+    display: flex;
+  }
+  

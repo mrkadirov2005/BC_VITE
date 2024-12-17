@@ -1,0 +1,77 @@
+/* Section Styling */
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  /* Heading Styling */
+  .heading {
+    font-weight: bold;
+    font-size: 1.875rem; /* text-3xl */
+    color: white;
+    padding: 1rem; /* p-4 */
+    margin-bottom: 2rem; /* mb-8 */
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* drop-shadow-lg */
+  }
+  
+  /* Buttons Container */
+  .buttons-container {
+    width: 80%;
+    max-width: 24rem; /* max-w-md */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Button Styling */
+  .btn {
+    width: auto;
+    padding: 0.75rem 2rem; /* px-8 py-3 */
+    font-size: 1.125rem; /* text-lg */
+    color: white;
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    transition: all 0.3s ease-in-out; /* transition-all duration-300 */
+    text-align: center;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* hover:shadow-lg */
+  }
+  
+  /* Gradient Backgrounds */
+  .btn-vip {
+    background: linear-gradient(to right, #fbbf24, #fb923c); /* from-yellow-500 to-orange-500 */
+  }
+  
+  .btn-vip:hover {
+    background-color: #fb923c; /* hover:bg-orange-600 */
+  }
+  
+  .btn-admin {
+    background: linear-gradient(to right, #ef4444, #ec4899); /* from-red-500 to-pink-500 */
+  }
+  
+  .btn-admin:hover {
+    background-color: #ec4899; /* hover:bg-pink-600 */
+  }
+  
+  .btn-teacher {
+    background: linear-gradient(to right, #3b82f6, #6366f1); /* from-blue-500 to-indigo-500 */
+  }
+  
+  .btn-teacher:hover {
+    background-color: #6366f1; /* hover:bg-indigo-600 */
+  }
+  
+  .btn-student {
+    background: linear-gradient(to right, #10b981, #14b8a6); /* from-green-500 to-teal-500 */
+  }
+  
+  .btn-student:hover {
+    background-color: #14b8a6; /* hover:bg-teal-600 */
+  }
+  

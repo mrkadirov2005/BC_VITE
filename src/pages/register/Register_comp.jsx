@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css"; // Import the CSS file
 
-export default function RegisterPage() {
+export default function Sign_in_Comp() {
   return (
     <section className="register-page">
       <div className="register-container">
@@ -44,6 +44,24 @@ export default function RegisterPage() {
             </svg>
             Sign In
           </Link>
+          <Link to="/super_admin" className="register-link">
+            <svg
+              className="register-icon"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M16 17l-4 4m0 0l-4-4m4 4V3"
+              ></path>
+            </svg>
+            Super Admin
+          </Link>
+
         </div>
       </div>
     </section>

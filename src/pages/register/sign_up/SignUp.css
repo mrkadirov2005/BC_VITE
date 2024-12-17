@@ -1,0 +1,64 @@
+/* Container Styles */
+.registration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #2f855a; /* Tailwind bg-green-700 */
+  }
+  
+  /* Heading Styles */
+  .registration-heading {
+    font-weight: bold;
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    color: white;
+    padding: 1rem; /* Tailwind p-4 */
+    margin-bottom: 2rem; /* Tailwind mb-8 */
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind drop-shadow-lg */
+  }
+  
+  /* Buttons Container */
+  .registration-buttons {
+    width: 80%;
+    max-width: 24rem; /* Tailwind max-w-md */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Button Styles */
+  .registration-button {
+    width: auto;
+    padding: 0.75rem 2rem; /* Tailwind px-8 py-3 */
+    font-size: 1.125rem; /* Tailwind text-lg */
+    color: white;
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
+    transition: all 0.3s ease-in-out; /* Tailwind transition-all duration-300 */
+    text-align: center;
+  }
+  
+  /* Hover Effect */
+  .registration-button:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Tailwind hover:shadow-lg */
+  }
+  
+  /* Button Backgrounds */
+  .registration-button.vip {
+    background: linear-gradient(to right, #fbbf24, #fb923c); /* Tailwind from-yellow-500 to-orange-500 */
+  }
+  
+  .registration-button.vip:hover {
+    background-color: #fb923c; /* Tailwind hover:bg-orange-600 */
+  }
+  
+  .registration-button.admin {
+    background: linear-gradient(to right, #ef4444, #ec4899); /* Tailwind from-red-500 to-pink-500 */
+  }
+  
+  .registration-button.admin:hover {
+    background-color: #ec4899; /* Tailwind hover:bg-pink-600 */
+  }
+  

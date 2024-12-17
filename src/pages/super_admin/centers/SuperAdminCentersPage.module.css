@@ -1,0 +1,118 @@
+/* Container and general layout */
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f9fafb, #e5e7eb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 0;
+    width: 100vw;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+    color: #1f2937;
+    text-align: center;
+  }
+  
+  .contentWrapper {
+    width: 100%;
+    max-width: 64rem;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Buttons */
+  .buttonGroup {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .button {
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .addButton {
+    background-color: #2563eb;
+  }
+  
+  .activeAddButton {
+    background-color: #ef4444;
+  }
+  
+  .deleteButton {
+    background-color: #f59e0b;
+  }
+  
+  .activeDeleteButton {
+    background-color: #ef4444;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Centers List */
+  .centerList {
+    width: 100%;
+  }
+  
+  .centerListTitle {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .centerListContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .centerItem {
+    padding: 1rem;
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  .centerItem:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .centerText {
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  .centerLink {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .centerLink:hover {
+    color: #1d4ed8;
+  }
+  

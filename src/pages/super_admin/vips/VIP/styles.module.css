@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background-color: #2c2c2c;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  
+  .detailItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .value {
+    font-size: 16px;
+    color: #222;
+  }
+  
+  .fullWidth {
+    grid-column: span 2;
+  }
+  

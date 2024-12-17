@@ -1,0 +1,77 @@
+/* Container Styles */
+.admin-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1.5rem; /* Tailwind p-6 */
+    background: linear-gradient(to right, #60a5fa, #4f46e5); /* Tailwind from-blue-400 to-indigo-600 */
+  }
+  
+  /* Form Card Styles */
+  .admin-login-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Tailwind bg-opacity-90 */
+    backdrop-filter: blur(10px); /* Tailwind backdrop-blur-lg */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
+    padding: 2rem; /* Tailwind p-8 */
+    max-width: 28rem; /* Tailwind max-w-md */
+    width: 100%;
+  }
+  
+  /* Heading Styles */
+  .admin-login-heading {
+    font-size: 1.5rem; /* Tailwind text-2xl */
+    font-weight: 600; /* Tailwind font-semibold */
+    color: #1f2937; /* Tailwind text-gray-800 */
+    margin-bottom: 1.5rem; /* Tailwind mb-6 */
+    text-align: center;
+  }
+  
+  /* Input Styles */
+  .admin-login-input {
+    margin-top: 0.25rem; /* Tailwind mt-1 */
+    width: 100%; /* Tailwind w-full */
+    padding: 0.5rem 1rem; /* Tailwind px-4 py-2 */
+    border: 1px solid #d1d5db; /* Tailwind border */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .admin-login-input:focus {
+    border-color: #4f46e5; /* Tailwind focus:ring-indigo-600 */
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3); /* Tailwind focus:ring-2 */
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #dc2626; /* Tailwind text-red-600 */
+    font-size: 0.875rem; /* Tailwind text-sm */
+  }
+  
+  /* Success Message */
+  .success-message {
+    color: #16a34a; /* Tailwind text-green-600 */
+    font-size: 0.875rem; /* Tailwind text-sm */
+  }
+  
+  /* Button Styles */
+  .admin-login-button {
+    width: 100%; /* Tailwind w-full */
+    padding: 0.5rem 1rem; /* Tailwind py-2 px-4 */
+    background-color: #4f46e5; /* Tailwind bg-indigo-600 */
+    color: white;
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    transition: background-color 0.3s ease-in-out; /* Tailwind transition-colors duration-300 */
+  }
+  
+  .admin-login-button:hover {
+    background-color: #4338ca; /* Tailwind hover:bg-indigo-700 */
+  }
+  
+  .admin-login-button:disabled {
+    opacity: 0.5; /* Tailwind opacity-50 */
+    cursor: not-allowed; /* Tailwind cursor-not-allowed */
+  }
+  
